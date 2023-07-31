@@ -14,4 +14,4 @@ Usando python, conte o número de consoantes em uma palavra fornecida como entra
 
 ### C
 
-Usando python, trate os casos em que não seja uma palavra, mas uma frase (espaços) ou uma senha (com número e caracteres especiais).
+Usando python, trate os casos em que não seja uma palavra, mas uma frase (letras maiúsculas, minúsculas e espaços) ou uma senha (com números e caracteres especiais).
