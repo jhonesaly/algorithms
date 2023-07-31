@@ -19,3 +19,7 @@ Usando python, trate os casos em que não seja uma palavra, mas uma frase (letra
 ### D
 
 Usando python, torne a resolução C em uma função.
+
+### E
+
+Usando python, escreva testes unitários para a função da resolução E.
