@@ -1,29 +1,41 @@
 # Resolução algoritmo 1
 
-input = '4aAAa 5CcCcC #$@'
+def count_vog_con(input):
 
-# Definições
+    # Definições
 
-count_v = 0
-count_c = 0
-vogais = ['a','e','i','o','u']
+    count_v = 0
+    count_c = 0
+    vogais = ['a','e','i','o','u']
 
-# Tratamento
+    # Tratamento
 
-input = input.lower()
+    input = input.lower()
 
-for str in input:
+    for str in input:
 
-    # Verifica se a string é uma letra
-    if str.isalpha():
-        # se a string for vogal, aumente o contador de vogais em 1
-        if str in vogais:
-            count_v += 1
-        # se a string não for vogal, aumente contador de consoantes em 1
-        elif str not in vogais:
-            count_c += 1
+        # Verifica se a string é uma letra
+        if str.isalpha():
+            # se a string for vogal, aumente o contador de vogais em 1
+            if str in vogais:
+                count_v += 1
+            # se a string não for vogal, aumente contador de consoantes em 1
+            elif str not in vogais:
+                count_c += 1
 
-# print contagem
+    output_1 = count_v
+    output_2 = count_c
+    
+    return output_1, output_2
 
-print('o número de vogais é:', count_v)
-print('o número de consoantes é:', count_c)
+
+if __name__ == '__main__':
+
+    # print contagem
+
+    text = '4aAAa 5CcCcC #$@'
+
+    count_v, count_c = count_vog_con(text)
+
+    print('o número de vogais é:', count_v)
+    print('o número de consoantes é:', count_c)
