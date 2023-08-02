@@ -27,3 +27,10 @@ def count_vog_con(input):
     output_2 = count_c
     
     return output_1, output_2
+
+if __name__ == '__main__':
+    import unittest
+    from test_alg1 import TestCountVogCon
+
+    # Rodar os testes
+    unittest.main()
