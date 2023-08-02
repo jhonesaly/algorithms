@@ -6,7 +6,7 @@ def count_vog_con(input):
 
     count_v = 0
     count_c = 0
-    vogais = ['a','e','i','o','u']
+    vogais = ['a', 'e', 'i', 'o', 'u']
 
     # Tratamento
 
@@ -25,8 +25,9 @@ def count_vog_con(input):
 
     output_1 = count_v
     output_2 = count_c
-    
+
     return output_1, output_2
+
 
 if __name__ == '__main__':
     import unittest
