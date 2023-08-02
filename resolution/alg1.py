@@ -27,15 +27,3 @@ def count_vog_con(input):
     output_2 = count_c
     
     return output_1, output_2
-
-
-if __name__ == '__main__':
-
-    # print contagem
-
-    text = '4aAAa 5CcCcC #$@'
-
-    count_v, count_c = count_vog_con(text)
-
-    print('o número de vogais é:', count_v)
-    print('o número de consoantes é:', count_c)

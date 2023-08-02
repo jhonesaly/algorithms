@@ -22,4 +22,4 @@ Usando python, torne a resolução C em uma função.
 
 ### E
 
-Usando python, escreva testes unitários para a função da resolução E.
+Usando python, escreva testes unitários para a função da resolução D.
