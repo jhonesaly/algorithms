@@ -4,7 +4,7 @@ def bubblesort(arr_list):
 
     cont = True
 
-    while cont == True:
+    while cont:
 
         swapped = False
 
@@ -17,10 +17,11 @@ def bubblesort(arr_list):
                 arr_list[i+1] = a_1
                 arr_list[i] = a_2
 
-        if swapped == False:
+        if swapped is False:
             cont = False
 
     return arr_list
+
 
 if __name__ == '__main__':
 
