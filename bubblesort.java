@@ -1,5 +1,7 @@
 // Bubble sort com Java
 
+import java.util.Arrays;
+
 public class Bubblesort {
 
     public static int[] bubblesort(int[] arr) {
@@ -24,7 +26,7 @@ public class Bubblesort {
         }
       
         
-    return arr;
+        return arr;
     }
 
     
