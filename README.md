@@ -23,3 +23,7 @@ Usando python, torne a resolução C em uma função.
 ### E
 
 Usando python, escreva testes unitários para a função da resolução D.
+
+## 02
+
+Utilizando as 3 linguagens: java, python e javascript; escreva um script para cada uma delas que faz uma ordenação por meio de um bubble sort.
