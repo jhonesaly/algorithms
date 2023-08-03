@@ -33,6 +33,6 @@ public class Bubblesort {
         int[] expected_output = {0, 1, 2, 3, 4, 5};
         int[] result = bubblesort(test_input);
 
-        System.out.printIn("Test bubblesort_range: " + java.util.Arrays.equals(result, expected_output));
+        System.out.println("Test bubblesort_range: " + java.util.Arrays.equals(result, expected_output));
     }
 }
