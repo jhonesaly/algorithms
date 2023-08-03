@@ -1,5 +1,3 @@
-# Bubble sort com python
-
 def bubblesort(arr_list):
 
     cont = True

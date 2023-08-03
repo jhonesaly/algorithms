@@ -1,6 +1,6 @@
-// Bubble sort com Java
+import java.util.Arrays;
 
-public class Bubblesort {
+public class bubblesort {
 
     public static int[] bubblesort(int[] arr) {
         boolean cont = true;
@@ -27,12 +27,11 @@ public class Bubblesort {
         return arr;
     }
 
-    
+
     public static void main(String[] args) {
         int[] test_input = {5, 4, 3, 2, 1, 0};
-        int[] expected_output = {0, 1, 2, 3, 4, 5};
         int[] result = bubblesort(test_input);
 
-        System.out.println("Test bubblesort_range: " + java.util.Arrays.equals(result, expected_output));
+        System.out.println(Arrays.toString(result));
     }
 }

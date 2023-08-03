@@ -21,4 +21,7 @@ function bubbleSort(arr) {
     return arr;
 }
 
+const array = bubbleSort([5,4,3,2,1,0]);
+console.log(array);
+
 module.exports = bubbleSort;
