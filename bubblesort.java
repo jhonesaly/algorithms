@@ -1,29 +1,26 @@
 import java.util.Arrays;
 
 public class bubblesort {
-
+    
     public static int[] bubblesort(int[] arr) {
         boolean cont = true;
-
         while (cont) {
             boolean swapped = false;
 
             for (int i = 0; i < arr.length - 1; i++) {
-                if (arr[i] > arr[i + 1]) {
+                if (arr[i] > arr[i+1]) {
+                    int temp = arr[i];
+                    arr[i] = arr[i+1];
+                    arr[i+1] = temp;
                     swapped = true;
-                    int a_1 = arr[i];
-                    int a_2 = arr[i+1];
-                    arr[i+1] = a_1;
-                    arr[i] = a_2;
                 }
             }
 
-            if (!swapped) {
+            if (swapped == false) {
                 cont = false;
             }
         }
-      
-        
+
         return arr;
     }
 
